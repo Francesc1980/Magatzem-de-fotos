@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h1{
+    text-align:center;
+    color:purple;
+}
+
+title{
+    text-align: center;
+    font-size:35px;
+
+}
+
+
+
+
+
+
+body{
+  background-color: rgb(194, 221, 221);
+  
+
+
+}
+  
+
+
+
+
+
+p{
+    margin-right:2em;
+}
+
+
+.container{
+    width:80vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+
+
+}
+
+
+nav ul{
+    background-color:black;
+    width:100%;
+    height:75px;
+    color:white;
+
+}
+
+
+.titulo{
+    text-transform: uppercase;
+
+}
+  
+
+.card{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;;
+    margin: auto;
+    text-align: center;
+    border:1px solid grey;
+    
+    
+}
+
+.card img:hover{
+    cursor:pointer;
+    background-color:rgb(134, 180, 180);
+}
+
+
+.footer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

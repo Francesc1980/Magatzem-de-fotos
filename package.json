@@ -1,0 +1,18 @@
+{
+  "name": "magatzem-de-fotos",
+  "version": "1.0.0",
+  "description": "// crear una APP express vacia\r //Configurar el package.jason\r //Instalar las dependencias nodemon y express\r //Definir 2 rutas\r // /--> mostrar las fotots ( de momento, no)\r / añadir-imagen (mostrar un formulario con la imagen a añadir",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
+  }
+}

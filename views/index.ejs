@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magatzem Imatges</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+</head>
+<body>
+
+   
+    <nav>
+        <ul>
+            <li><strong>Mi Galeria</strong></li>
+            <li><a href="/">Mostrar imagenes</a></li>
+            <li><a href="/form">Anadir imagen</a></li>
+        </ul>
+        
+        </nav>
+
+    
+    <h1>!Bievenidos<span> a Image Gallery.</span> </h1>
+
+
+    <p>Actualmente en el almacen de imagenes hay 2 imagenes <%= pics.length%> fotos</p>
+
+    <section class="container">
+ 
+    <% pics.forEach(function(p) {%>
+
+   
+        
+        <div class="card"  style="width: 18rem;">
+
+        <img style="width:150px" src="<%= p.url %>" alt="">
+
+        <p class="Titulo">
+            <%= p.titulo %>
+
+            <%= p.fecha %>
+    
+        </div>
+
+    
+        
+    </p>
+    <% }); %>     
+  
+    
+
+
+
+</section>
+<footer class="footer">
+    <%- include('../partials/footer'); %>
+
+</footer>
+
+    <script src="/script.js"></script>
+
+    
+</body>
+</html>
